@@ -22,11 +22,6 @@
   color: #fff;
 }
 
-.page-icon {
-  margin-left: 1rem;
-  font-size: 100px;
-}
-
 #error-page {
   display: flex;
   flex-direction: column;
