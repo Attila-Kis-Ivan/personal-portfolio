@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import {
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-} from "react-icons/ai";
-import { MdOutlineConnectWithoutContact } from "react-icons/md";
-import { CgFileDocument } from "react-icons/cg";
+import github from "../../assets/images/github-purple.svg";
+import linkedIn from "../../assets/images/inkedI-purple.svg";
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo from "../../assets/images/Logo.svg";
 import "./NavBar.css";
@@ -94,6 +89,19 @@ const NavBar = () => {
                 </NavLink>
               </li>
             </ul>
+            <div className="social-icon-container">
+              <div className="social-icon">
+                <a
+                  href="https://www.linkedin.com/in/attila-kis-ivan-68a67bb3/"
+                  target="blank"
+                >
+                  <img src={linkedIn} alt="" />
+                </a>
+                <a href="https://github.com/Attila-Kis-Ivan" target="blank">
+                  <img src={github} alt="" />
+                </a>
+              </div>
+            </div>
           </div>
         </nav>
       </IconContext.Provider>
