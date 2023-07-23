@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  height: 100vh;
+  height: 90vh;
+  width: 100vh;
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
@@ -30,7 +31,7 @@ body {
   background-color: #000;
   color: #fff;
 }
-
+/* 
 @media screen and (max-width: 960px) {
   .about,
   .contact {
@@ -41,4 +42,4 @@ body {
     margin-left: 1rem;
     font-size: 80px;
   }
-}
+} */
