@@ -1,13 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
 }
 
-.home,
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  height: 100vh;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #000;
+}
+
 .about,
 .contact,
 .projects,
@@ -22,16 +31,7 @@
   color: #fff;
 }
 
-#error-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
 @media screen and (max-width: 960px) {
-  .home,
   .about,
   .contact {
     font-size: 2.5rem;

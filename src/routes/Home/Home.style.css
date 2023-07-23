@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../assets/fonts/Montserrat-VariableFont_wght.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../assets/fonts/Montserrat-VariableFont_wght.ttf");
+  font-weight: 400;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  .home {
+    font-size: 2.5rem;
+  }
+}
+
+.greeting {
+  padding-left: 0.5em;
+  animation-name: greeting-animation;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes greeting-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 9rem 0 2rem !important;
+  color: whitesmoke;
+  text-align: left;
+  min-width: 100px;
+}
+
+.header-text-container {
+  padding-top: 0px;
+  width: auto;
+  margin-right: 2em;
+  margin-bottom: 2.5em;
+}
+
+.header-text {
+  font-family: "Montserrat";
+  font-size: 1.1em;
+  font-weight: 300;
+  padding-bottom: 0.5em;
+}
+
+.header-main {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+.im {
+  font-family: "Montserrat";
+  font-size: 1em;
+  font-weight: 200;
+}
+.main-name {
+  font-family: "Montserrat";
+  font-size: 1em;
+  font-weight: 500;
+  color: #b127e8;
+}
+
+.Typewriter__wrapper {
+  font-size: 1em;
+  color: #b127e8;
+  font-weight: 400;
+}
+.Typewriter__cursor {
+  font-size: 1em;
+  color: #b127e8;
+}
+.type-writer {
+  margin-top: 1em;
+}
+
+.hero-image-container {
+  width: 40%;
+  height: 40%;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+.hero-image {
+  width: 100%;
+}
