@@ -7,13 +7,14 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
+  height: 100vh;
 }
 
 body {
   height: 90vh;
   width: 100vh;
   font-weight: 400;
-  overflow-x: hidden;
+
   position: relative;
   background-color: #000;
 }

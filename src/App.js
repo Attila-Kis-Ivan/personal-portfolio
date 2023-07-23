@@ -1,11 +1,6 @@
 import * as React from "react";
-import { createRoot } from "react-dom/client";
-import {
-  createBrowserRouter,
-  Outlet,
-  Link,
-  RouterProvider,
-} from "react-router-dom";
+
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import "./App.css";
 
 import Home from "./routes/Home/Home";
@@ -15,12 +10,14 @@ import Resume from "./routes/Resume/Resume";
 import Contact from "./routes/Contact/Contact";
 import NavBar from "./Components/Navbar/NavBar";
 import ErrorPage from "./routes/Error-Page/ErrorPage";
+import FooterBar from "./Components/Footer/FooterBar";
 
 const AppLayout = () => {
   return (
     <>
       <NavBar />
       <Outlet />
+      <FooterBar />
     </>
   );
 };

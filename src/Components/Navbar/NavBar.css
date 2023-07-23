@@ -43,7 +43,7 @@
 
 .navbar-icon {
   color: #0a0000;
-  justify-content: space-evenly;
+  justify-content: center;
   cursor: pointer;
   text-decoration: none;
   display: flex;
@@ -193,7 +193,6 @@
   }
 
   .social-icon-container {
-    margin-right: 4em;
     margin-left: 1em;
     margin-top: 0.3em;
   }
