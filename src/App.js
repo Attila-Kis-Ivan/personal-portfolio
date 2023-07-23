@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import "./App.css";
