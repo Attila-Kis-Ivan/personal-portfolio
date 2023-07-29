@@ -4,12 +4,12 @@
   padding: 0;
 }
 
-/* html {
+html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
   height: 100vh;
-  width: ;
-} */
+  width: 100vw;
+}
 
 body {
   height: 90vh;
@@ -20,7 +20,6 @@ body {
   background-color: #000;
 }
 
-.about,
 .contact,
 .projects,
 .error.page,
@@ -33,7 +32,7 @@ body {
   background-color: #000;
   color: #fff;
 }
-/* 
+/*  */
 @media screen and (max-width: 960px) {
   .about,
   .contact {
@@ -44,4 +43,4 @@ body {
     margin-left: 1rem;
     font-size: 80px;
   }
-} */
+}
