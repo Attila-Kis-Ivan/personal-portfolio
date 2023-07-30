@@ -40,8 +40,10 @@ const About = () => {
           <AboutImage src={about} alt="about" />
         </AboutPictureContainer>
       </AboutContainer>
-      {/* <Skills />
-      <Tools /> */}
+
+      <h1 className="purple">Skillset</h1>
+      <Skills />
+      {/* <Tools /> */}
     </AboutSection>
   );
 };

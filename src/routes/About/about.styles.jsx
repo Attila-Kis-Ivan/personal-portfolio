@@ -3,6 +3,7 @@ import { Devices } from "../../Components/MediaQuery";
 
 export const AboutSection = styled.section`
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100vw;
