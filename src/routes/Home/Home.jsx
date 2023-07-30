@@ -1,29 +1,41 @@
 import React from "react";
 import TypeWriter from "./TypeWriter";
 import homeImage from "../../assets/images/home-img.svg";
-import "./Home.style.css";
+import {
+  HomeSection,
+  Greeting,
+  HomeContent,
+  HeaderTextContainer,
+  HeaderText,
+  Im,
+  MainName,
+  NameContainer,
+  TypeWriterContainer,
+  HeroImageContainer,
+  HeroImage,
+} from "./Home.style";
 const Home = () => {
   return (
-    <section className="home">
-      <div className="home-content">
-        <div className="header-text-container">
-          <h1 className="header-text">
+    <HomeSection>
+      <HomeContent>
+        <HeaderTextContainer>
+          <HeaderText>
             Hi There!
-            <span className="greeting"> 👋🏻 </span>
-          </h1>
-          <h1 className="name-container">
-            <span className="im">I'm </span>
-            <span className="main-name"> Attila Kis-Ivan</span>
-          </h1>
-          <div className="type-writer">
+            <Greeting> 👋🏻 </Greeting>
+          </HeaderText>
+          <NameContainer>
+            <Im>I'm </Im>
+            <MainName> Attila Kis-Ivan</MainName>
+          </NameContainer>
+          <TypeWriterContainer>
             <TypeWriter />
-          </div>
-        </div>
-        <div className="hero-image-container">
-          <img src={homeImage} alt="home" className="hero-image" />
-        </div>
-      </div>
-    </section>
+          </TypeWriterContainer>
+        </HeaderTextContainer>
+        <HeroImageContainer>
+          <HeroImage src={homeImage} alt="home" />
+        </HeroImageContainer>
+      </HomeContent>
+    </HomeSection>
   );
 };
 
