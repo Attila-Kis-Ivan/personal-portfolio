@@ -19,9 +19,18 @@ export const AboutSection = styled.section`
   }
 `;
 
+// export const SkillsSection = styled.section`
+//   display: flex;
+//   flex-direction: row;
+//   width: 100%;
+//   height: auto;
+//   margin-top: 4em;
+// `;
+
 export const AboutContainer = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   align-content: space-between;
   justify-content: center;

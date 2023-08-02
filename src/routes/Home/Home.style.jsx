@@ -134,10 +134,6 @@ export const HeaderText = styled.h1`
   }
 `;
 
-// .header-main {
-//   font-size: 1.1em;
-//   font-weight: 300;
-// }
 export const Im = styled.span`
   font-family: "Montserrat";
   font-size: 1em;
