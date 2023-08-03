@@ -11,15 +11,7 @@ export const Container = styled.div`
   flex-direction: row;
 `;
 
-export const SkillsContainer = styled.div`
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-  width: 60%;
-  justify-content: space-around;
-  align-items: center; */
-`;
+export const SkillsContainer = styled.div``;
 export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -28,7 +20,11 @@ export const CardContainer = styled.div`
   margin: 4em;
   height: 12em;
   width: 10em;
-
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  }
   color: #b127e8;
   border: 1px solid #b127e8;
   border-radius: 10px;
@@ -37,4 +33,13 @@ export const CardContainer = styled.div`
 
 export const ImageHolder = styled.div`
   justify-content: center;
+  font-size: 3.25em;
+`;
+
+export const TitleContainer = styled.div`
+  font-size: 1.2em;
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;

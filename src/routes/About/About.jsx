@@ -11,6 +11,7 @@ import {
   HeaderText,
   Introduce,
   Purple,
+  SkillsPurple,
   PContainer,
   Paragraph,
 } from "./about.styles.jsx";
@@ -41,7 +42,7 @@ const About = () => {
         </AboutPictureContainer>
       </AboutContainer>
 
-      <h1 className="purple">Skillset</h1>
+      <SkillsPurple>Skillset</SkillsPurple>
       <Skills />
       {/* <Tools /> */}
     </AboutSection>

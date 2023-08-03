@@ -19,14 +19,6 @@ export const AboutSection = styled.section`
   }
 `;
 
-// export const SkillsSection = styled.section`
-//   display: flex;
-//   flex-direction: row;
-//   width: 100%;
-//   height: auto;
-//   margin-top: 4em;
-// `;
-
 export const AboutContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -103,6 +95,11 @@ export const Introduce = styled.h1`
 `;
 export const Purple = styled.span`
   color: #b127e8;
+`;
+export const SkillsPurple = styled.h1`
+  color: #b127e8;
+  font-size: 3em;
+  margin-bottom: 1em;
 `;
 
 export const PContainer = styled.div`

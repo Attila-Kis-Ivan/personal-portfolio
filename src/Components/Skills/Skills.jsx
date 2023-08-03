@@ -4,13 +4,14 @@ import {
   SkillsContainer,
   Container,
   ImageHolder,
+  TitleContainer,
 } from "./Skills.styles";
 import {
   DiJavascript1,
   DiHtml5,
   DiReact,
   DiCss3,
-  DiNodejs,
+  DiNodejsSmall,
 } from "react-icons/di";
 import { SiStyledcomponents } from "react-icons/si";
 import { ImGit } from "react-icons/im";
@@ -19,47 +20,47 @@ import { FaGithub } from "react-icons/fa";
 export const skills = [
   {
     id: 1,
-    title: "javascript",
+    title: "JavaScript",
     image: <DiJavascript1 id="1" />,
   },
   {
     id: 2,
-    title: "html5",
+    title: "HTML5",
     image: <DiHtml5 />,
   },
   {
     id: 3,
-    title: "css",
+    title: "CSS",
     image: <DiCss3 />,
   },
   {
     id: 4,
-    title: "react",
+    title: "React",
     image: <DiReact />,
   },
   {
     id: 5,
-    title: "react-native",
+    title: "React-Native",
     image: <DiReact />,
   },
   {
     id: 6,
-    title: "styled-components",
+    title: "Styled-Components",
     image: <SiStyledcomponents />,
   },
   {
     id: 7,
-    title: "node",
-    image: <DiNodejs />,
+    title: "Node",
+    image: <DiNodejsSmall />,
   },
   {
     id: 8,
-    title: "git",
+    title: "Git",
     image: <ImGit />,
   },
   {
     id: 9,
-    title: "github",
+    title: "GitHub",
     image: <FaGithub />,
   },
 ];
@@ -71,7 +72,7 @@ const Skills = () => {
         <SkillsContainer key={item.id}>
           <CardContainer>
             <ImageHolder> {item.image}</ImageHolder>
-            <div className="title-container">{item.title}</div>
+            <TitleContainer>{item.title}</TitleContainer>
           </CardContainer>
         </SkillsContainer>
       ))}
