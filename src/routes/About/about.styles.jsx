@@ -98,8 +98,28 @@ export const Purple = styled.span`
 `;
 export const SkillsPurple = styled.h1`
   color: #b127e8;
-  font-size: 3em;
-  margin-bottom: 1em;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 2.5em;
+  @media ${Devices.md} {
+    font-size: 1.4em;
+  }
+`;
+export const ToolsPurple = styled.h1`
+  color: #b127e8;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 2.5em;
+  margin-top: 2em;
+  letter-spacing: 2px;
+  @media ${Devices.md} {
+    font-size: 1.4em;
+  }
+`;
+export const ToolsWhite = styled.span`
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 400;
 `;
 
 export const PContainer = styled.div`

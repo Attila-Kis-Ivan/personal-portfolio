@@ -50,7 +50,7 @@ export const skills = [
   },
   {
     id: 7,
-    title: "Node",
+    title: "Node JS",
     image: <DiNodejsSmall />,
   },
   {

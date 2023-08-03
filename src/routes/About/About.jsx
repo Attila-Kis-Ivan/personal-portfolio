@@ -12,6 +12,8 @@ import {
   Introduce,
   Purple,
   SkillsPurple,
+  ToolsPurple,
+  ToolsWhite,
   PContainer,
   Paragraph,
 } from "./about.styles.jsx";
@@ -44,7 +46,10 @@ const About = () => {
 
       <SkillsPurple>Skillset</SkillsPurple>
       <Skills />
-      {/* <Tools /> */}
+      <ToolsPurple>
+        Tools <ToolsWhite>I use</ToolsWhite>
+      </ToolsPurple>
+      <Tools />
     </AboutSection>
   );
 };
