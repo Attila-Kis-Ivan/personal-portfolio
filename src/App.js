@@ -1,7 +1,6 @@
 import React from "react";
 
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
-import "./App.css";
 
 import Home from "./routes/Home/Home";
 import About from "./routes/About/About";
@@ -11,10 +10,12 @@ import Contact from "./routes/Contact/Contact";
 import NavBar from "./Components/Navbar/NavBar";
 import ErrorPage from "./routes/Error-Page/ErrorPage";
 import FooterBar from "./Components/Footer/FooterBar";
+import GlobalStyle from "./globalstyle";
 
 const AppLayout = () => {
   return (
     <>
+      <GlobalStyle />
       <NavBar />
       <Outlet />
       <FooterBar />

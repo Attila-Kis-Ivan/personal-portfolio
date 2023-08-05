@@ -35,7 +35,7 @@ export const CardContainer = styled.div`
 export const ImageHolder = styled.div`
   justify-content: center;
   font-size: 3.25em;
-  color: #fdfffe;
+  color: #f2f2f2;
 `;
 
 export const TitleContainer = styled.div`
