@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   width: 100vw;

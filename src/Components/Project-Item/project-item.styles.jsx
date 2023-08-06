@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FlipCard = styled.div`
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   align-content: space-between;
   justify-content: center;
@@ -12,7 +12,6 @@ export const FlipCard = styled.div`
   margin-top: 3em;
   margin-left: 5em;
   margin-right: 5em;
-  margin-bottom: 14em;
   width: 15em;
   height: 20.25em;
   cursor: pointer;
