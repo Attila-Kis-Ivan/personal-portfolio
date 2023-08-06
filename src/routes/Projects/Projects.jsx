@@ -1,10 +1,12 @@
 import React from "react";
+import ProjectItem from "../../Components/Project-Item/project-item";
+import { ProjectContainer } from "./Projects.styles";
 
-export const projects = [
+const projects = [
   {
     id: 1,
     title: "Portfolio Page",
-    image: "../../assets/project-images/webshop.png",
+    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
     language: "javascript",
@@ -14,7 +16,7 @@ export const projects = [
   {
     id: 2,
     title: "TDB-Clothing-2.0",
-    image: "../../assets/project-images/webshop.png",
+    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
     language: "javascript",
@@ -24,7 +26,7 @@ export const projects = [
   {
     id: 3,
     title: "FoodToGo",
-    image: "../../assets/project-images/webshop.png",
+    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
     language: "javascript",
@@ -34,7 +36,7 @@ export const projects = [
   {
     id: 4,
     title: "Face-Recognition-App",
-    image: "../../assets/project-images/webshop.png",
+    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
     language: "javascript",
@@ -45,20 +47,11 @@ export const projects = [
 
 const Projects = () => {
   return (
-    <div className="container">
+    <ProjectContainer>
       {projects.map((project) => (
-        <div key={project.id} className="project-container">
-          <div className="card-container">
-            <div className="image-container"> {project.image}</div>
-            <div className="title-container">{project.title}</div>
-            <div className="descr-container">{project.description}</div>
-            <div className="button-container">
-              <button href={project.demo}></button>
-            </div>
-          </div>
-        </div>
+        <ProjectItem key={project.id} project={project} />
       ))}
-    </div>
+    </ProjectContainer>
   );
 };
 
