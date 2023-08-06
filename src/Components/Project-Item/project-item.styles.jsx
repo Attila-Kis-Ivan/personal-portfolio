@@ -15,7 +15,8 @@ export const FlipCard = styled.div`
   width: 15em;
   height: 20.25em;
   cursor: pointer;
-  margin-top: 10em;
+  margin-top: 4rem;
+  margin-bottom: 10em;
 `;
 
 export const FlipCardInner = styled.div`
@@ -78,4 +79,75 @@ export const Paragraph = styled.p`
   font-family: "Montserrat";
   font-weight: 300;
   font-size: 1em;
+`;
+
+export const BtnContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100vw;
+  height: 2.5em;
+  margin-top: 3em;
+`;
+
+export const ButtonHolder = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 2.5rem;
+  width: 40%;
+  font-size: 3.25em;
+  color: #f2f2f2;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px #b127e8;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  }
+`;
+
+export const Btn = styled.a`
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1rem;
+  border: none;
+  text-decoration: none;
+  border: none;
+`;
+
+export const BtnTetx = styled.span`
+  margin-left: 0.5em;
+`;
+
+export const TitleContainer = styled.div`
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2em;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Title = styled.p`
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #b127e8;
+  margin-bottom: 1em;
 `;

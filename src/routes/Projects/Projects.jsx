@@ -1,12 +1,17 @@
 import React from "react";
 import ProjectItem from "../../Components/Project-Item/project-item";
-import { ProjectContainer } from "./Projects.styles";
+import {
+  ProjectContainer,
+  Container,
+  HeadingContainer,
+  Heading,
+} from "./Projects.styles";
 
 const projects = [
   {
     id: 1,
     title: "Portfolio Page",
-    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
+    imageurl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
     language: "javascript",
@@ -16,7 +21,7 @@ const projects = [
   {
     id: 2,
     title: "TDB-Clothing-2.0",
-    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
+    imageurl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
     language: "javascript",
@@ -26,7 +31,7 @@ const projects = [
   {
     id: 3,
     title: "FoodToGo",
-    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
+    imageurl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
     language: "javascript",
@@ -36,7 +41,7 @@ const projects = [
   {
     id: 4,
     title: "Face-Recognition-App",
-    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
+    imageurl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
     language: "javascript",
@@ -48,9 +53,14 @@ const projects = [
 const Projects = () => {
   return (
     <ProjectContainer>
-      {projects.map((project) => (
-        <ProjectItem key={project.id} project={project} />
-      ))}
+      <HeadingContainer>
+        <Heading>PROJECTS</Heading>
+      </HeadingContainer>
+      <Container>
+        {projects.map((project) => (
+          <ProjectItem key={project.id} project={project} />
+        ))}
+      </Container>
     </ProjectContainer>
   );
 };
