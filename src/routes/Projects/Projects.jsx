@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import ProjectItem from "../../Components/Project-Item/project-item";
 import {
   ProjectContainer,
@@ -11,7 +11,7 @@ const projects = [
   {
     id: 1,
     title: "Portfolio Page",
-    imageurl: "https://i.ibb.co/V37wqxk/lion.jpg",
+    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
     language: "javascript",
@@ -21,7 +21,7 @@ const projects = [
   {
     id: 2,
     title: "TDB-Clothing-2.0",
-    imageurl: "https://i.ibb.co/V37wqxk/lion.jpg",
+    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
     language: "javascript",
@@ -31,7 +31,7 @@ const projects = [
   {
     id: 3,
     title: "FoodToGo",
-    imageurl: "https://i.ibb.co/V37wqxk/lion.jpg",
+    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
     language: "javascript",
@@ -41,7 +41,7 @@ const projects = [
   {
     id: 4,
     title: "Face-Recognition-App",
-    imageurl: "https://i.ibb.co/V37wqxk/lion.jpg",
+    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
     language: "javascript",
@@ -51,6 +51,13 @@ const projects = [
 ];
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, []);
   return (
     <ProjectContainer>
       <HeadingContainer>

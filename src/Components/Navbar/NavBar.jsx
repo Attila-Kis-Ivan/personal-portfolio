@@ -12,6 +12,7 @@ const NavBar = () => {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+
   return (
     <>
       <IconContext.Provider value={{ className: "navbar-menu-icons " }}>

@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import Skills from "../../Components/Skills/Skills";
 import Tools from "../../Components/Tools/Tools";
 import about from "../../assets/images/about.png";
@@ -19,6 +19,13 @@ import {
 } from "./about.styles.jsx";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, []);
   return (
     <AboutSection>
       <AboutContainer>

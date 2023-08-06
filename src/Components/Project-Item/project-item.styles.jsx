@@ -14,8 +14,8 @@ export const FlipCard = styled.div`
   margin-right: 5em;
   width: 15em;
   height: 20.25em;
-  cursor: pointer;
-  margin-top: 4rem;
+
+  margin-top: 3.5rem;
   margin-bottom: 10em;
 `;
 
@@ -24,6 +24,7 @@ export const FlipCardInner = styled.div`
   height: 100%;
   transition: transform 1.5s;
   transform-style: preserve-3d;
+  cursor: pointer;
 
   &:hover {
     transform: rotateY(180deg);

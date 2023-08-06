@@ -16,7 +16,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 const ProjectItem = ({ project }) => {
-  const { title, imageurl, description, source, demo } = project;
+  const { title, imageUrl, description, source, demo } = project;
 
   return (
     <FlipCard>
@@ -24,7 +24,7 @@ const ProjectItem = ({ project }) => {
         <Title>{title}</Title>
       </TitleContainer>
       <FlipCardInner>
-        <FlipCardFront imageUrl={imageurl} />
+        <FlipCardFront imageUrl={imageUrl} />
         <FlipCardBack>
           <Heading>Descreption</Heading>
           <Paragraph>{description}</Paragraph>
