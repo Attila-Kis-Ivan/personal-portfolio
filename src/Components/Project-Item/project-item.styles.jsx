@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Devices } from "../../Components/MediaQuery";
 
 export const FlipCard = styled.div`
   display: flex;
@@ -17,6 +18,11 @@ export const FlipCard = styled.div`
 
   margin-top: 3.5rem;
   margin-bottom: 10em;
+
+  @media ${Devices.md} {
+    width: 11em;
+    height: 16.25em;
+  }
 `;
 
 export const FlipCardInner = styled.div`
@@ -41,7 +47,7 @@ export const FlipCardFront = styled.div`
   height: 100%;
   backface-visibility: hidden;
   border-radius: 24px;
-  box-shadow: 00px 0px 20px 10px #b127e8;
+  box-shadow: 0px 0px 20px 10px #b127e8;
 `;
 export const CoverImg = styled.img`
   width: 100%;
@@ -75,11 +81,21 @@ export const Heading = styled.h2`
   font-weight: 400;
   font-size: 1.1em;
   color: #b127e8;
+
+  @media ${Devices.md} {
+    font-weight: 400;
+    font-size: 0.8;
+  }
 `;
 export const Paragraph = styled.p`
   font-family: "Montserrat";
   font-weight: 300;
   font-size: 1em;
+
+  @media ${Devices.md} {
+    font-weight: 300;
+    font-size: 0.6em;
+  }
 `;
 
 export const BtnContainer = styled.div`
@@ -113,6 +129,11 @@ export const ButtonHolder = styled.div`
     transform: scale(1.1);
     transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
   }
+
+  @media ${Devices.md} {
+    height: 2rem;
+    width: 40%;
+  }
 `;
 
 export const Btn = styled.a`
@@ -127,6 +148,10 @@ export const Btn = styled.a`
   border: none;
   text-decoration: none;
   border: none;
+  @media ${Devices.md} {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
 `;
 
 export const BtnTetx = styled.span`
@@ -134,7 +159,7 @@ export const BtnTetx = styled.span`
 `;
 
 export const TitleContainer = styled.div`
-  margin: 1em;
+  margin: 1.2em 0em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,7 +173,11 @@ export const TitleContainer = styled.div`
 export const Title = styled.p`
   font-family: "Montserrat";
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #b127e8;
   margin-bottom: 1em;
+  @media ${Devices.md} {
+    font-weight: 400;
+    font-size: 1.2em;
+  }
 `;

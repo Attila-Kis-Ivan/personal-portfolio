@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Devices } from "../../Components/MediaQuery";
 
 export const ProjectContainer = styled.div`
   display: flex;
@@ -34,4 +35,9 @@ export const Heading = styled.h1`
   letter-spacing: 0.3em;
   color: #fff;
   margin-bottom: 1em;
+
+  @media ${Devices.md} {
+    font-weight: 400;
+    font-size: 2em;
+  }
 `;
