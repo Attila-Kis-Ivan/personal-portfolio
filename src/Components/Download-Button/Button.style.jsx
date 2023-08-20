@@ -7,18 +7,20 @@ export const Container = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 40vw;
-  height: 3em;
+  width: 100vw;
+  height: 2.5em;
   margin-bottom: 4em;
+  margin-top: auto;
 `;
 
 export const ButtonHolder = styled.div`
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: center;
-  height: 2.5rem;
-  width: 50%;
+  height: 0.8em;
+  width: 20rem;
   font-size: 3.25em;
   color: #f2f2f2;
   margin: auto;
@@ -33,8 +35,8 @@ export const ButtonHolder = styled.div`
   }
 
   @media ${Devices.md} {
-    height: 3rem;
-    width: 100vw;
+    height: 0%.8;
+    width: 15rem;
   }
 `;
 
@@ -49,11 +51,6 @@ export const Btn = styled.a`
   border: none;
   text-decoration: none;
   border: none;
-  /* @media ${Devices.md} {
-    font-weight: 400;
-
-    font-size: 0.8rem;
-  } */
 `;
 
 export const BtnTetx = styled.span`

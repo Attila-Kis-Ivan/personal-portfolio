@@ -32,11 +32,13 @@ export const ResumeContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 80vw;
+  height: auto;
 `;
 
 export const Image = styled.img`
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
 `;
 
 // export const ButtonContainer = styled.div`
