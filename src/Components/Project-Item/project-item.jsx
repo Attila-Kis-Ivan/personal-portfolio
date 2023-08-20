@@ -39,10 +39,8 @@ const ProjectItem = ({ project }) => {
         </ButtonHolder>
         <ButtonHolder>
           <Btn href={demo} target="_blank" rel="noreferrer">
-            {/* <Button> */}
             <CgWebsite />
             <BtnTetx>Demo</BtnTetx>
-            {/* </Button> */}
           </Btn>
         </ButtonHolder>
       </BtnContainer>

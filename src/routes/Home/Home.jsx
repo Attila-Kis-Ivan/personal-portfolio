@@ -14,6 +14,7 @@ import {
   HeroImageContainer,
   HeroImage,
 } from "./Home.style";
+
 const Home = () => {
   return (
     <HomeSection>

@@ -46,14 +46,14 @@ export const FlipCardFront = styled.div`
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  border-radius: 24px;
+  border-radius: 15px;
   box-shadow: 0px 0px 20px 10px #b127e8;
 `;
 export const CoverImg = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 24px;
+  border-radius: 15px;
   border: none;
 `;
 
@@ -72,7 +72,7 @@ export const FlipCardBack = styled.div`
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  border-radius: 24px;
+  border-radius: 15px;
   box-shadow: 0px 0px 20px 10px #b127e8;
 `;
 
@@ -122,12 +122,13 @@ export const ButtonHolder = styled.div`
   color: #f2f2f2;
   margin: auto;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 5px #b127e8;
+  border: 2px solid #b127e8;
 
   &:hover {
     cursor: pointer;
     transform: scale(1.1);
     transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    box-shadow: 0px 0px 10px 5px #b127e8;
   }
 
   @media ${Devices.md} {
