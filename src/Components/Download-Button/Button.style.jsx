@@ -54,5 +54,5 @@ export const Btn = styled.a`
 `;
 
 export const BtnTetx = styled.span`
-  margin-left: 0.5em;
+  margin-left: 2em;
 `;

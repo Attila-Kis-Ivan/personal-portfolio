@@ -18,15 +18,6 @@ export const Section = styled.div`
   margin-top: 15em;
 `;
 
-// export const Container = styled.div`
-//   display: flex;
-//   flex-direction: row;
-//   align-items: center;
-//   justify-content: center;
-//   width: 100%;
-//   height: 100%;
-//   margin-bottom: 15em;
-// `;
 export const ResumeContainer = styled.div`
   display: flex;
   flex-direction: row;
