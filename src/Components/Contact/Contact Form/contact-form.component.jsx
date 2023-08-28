@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import InputField from "../Input/input.component";
 import TextField from "../Textarea/textarea.component";
 import emailjs from "@emailjs/browser";
+import ReCAPTCHA from "react-google-recaptcha";
 import {
   ContactSection,
   Form,
@@ -9,10 +10,12 @@ import {
   Text,
   Button,
   Alert,
+  AlertContainer,
   TextAlert,
 } from "./contact-form.styles";
 
 const ContactForm = () => {
+  const captcha = useRef(null);
   const [values, setValues] = useState({
     fullName: "",
     email: "",
@@ -20,8 +23,20 @@ const ContactForm = () => {
     message: "",
   });
   const [status, setStatus] = useState("");
+  const [capVal, setCapVal] = useState(null);
+
+  const renderAlert = () => (
+    <Alert>
+      <AlertContainer>
+        <TextAlert>Your message sent successfully</TextAlert>
+      </AlertContainer>
+    </Alert>
+  );
+
+  const refresh = () => window.location.reload(true);
 
   const handleSubmit = (e) => {
+    captcha.current.reset();
     e.preventDefault();
     emailjs
       .send("service_b2mafh9", "template_2n0vqoq", values, "BdPPPjGG5Y0xDqapC")
@@ -31,7 +46,6 @@ const ContactForm = () => {
           setValues({
             fullName: "",
             email: "",
-            role: "",
             message: "",
           });
           setStatus("SUCCESS");
@@ -46,7 +60,9 @@ const ContactForm = () => {
     if (status === "SUCCESS") {
       setTimeout(() => {
         setStatus("");
-      }, 1000);
+        renderAlert();
+        refresh();
+      }, 2000);
     }
   }, [status]);
 
@@ -61,10 +77,7 @@ const ContactForm = () => {
       {status && renderAlert()}
       <Form onSubmit={handleSubmit}>
         <Heading>Contact Us</Heading>
-        <Text>
-          Feel free to send us a message about anything you might need help
-          with.
-        </Text>
+        <Text>Feel free to send a message.</Text>
         <InputField
           value={values.fullName}
           handleChange={handleChange}
@@ -89,18 +102,17 @@ const ContactForm = () => {
           label="Your message here"
           name="message"
         />
-        <Button type="submit" onClick={() => renderAlert()}>
+        <ReCAPTCHA
+          ref={captcha}
+          sitekey="6LfQkd4nAAAAAPS5Uuaed8A7pOVKkJDr1uplLR0W"
+          onChange={(val) => setCapVal(val)}
+        />
+        <Button disabled={!capVal} type="submit" onClick={() => renderAlert()}>
           Send
         </Button>
       </Form>
     </ContactSection>
   );
 };
-
-const renderAlert = () => (
-  <Alert>
-    <TextAlert>Your message sent successfully</TextAlert>
-  </Alert>
-);
 
 export default ContactForm;

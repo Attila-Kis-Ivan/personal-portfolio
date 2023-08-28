@@ -31,11 +31,3 @@ export const Image = styled.img`
   width: 100%;
   height: 100%;
 `;
-
-// export const ButtonContainer = styled.div`
-//   /* display: flex;
-//   flex-direction: row;
-//   justify-content: center;
-//   align-items: center;
-//   margin-top: 6em; */
-// `;
