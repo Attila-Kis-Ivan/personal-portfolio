@@ -1,22 +1,5 @@
-import { React, useEffect } from "react";
-import Skills from "../../Components/Skills/Skills";
-import Tools from "../../Components/Tools/Tools";
-import about from "../../assets/images/about.png";
-import {
-  AboutSection,
-  AboutContainer,
-  AboutTextContainer,
-  AboutPictureContainer,
-  AboutImage,
-  HeaderText,
-  Introduce,
-  Purple,
-  SkillsPurple,
-  ToolsPurple,
-  ToolsWhite,
-  PContainer,
-  Paragraph,
-} from "./about.styles.jsx";
+import React, { useEffect } from "react";
+import AboutItem from "../../Components/About/about.component";
 
 const About = () => {
   useEffect(() => {
@@ -26,39 +9,7 @@ const About = () => {
       behavior: "instant",
     });
   }, []);
-  return (
-    <AboutSection>
-      <AboutContainer>
-        <AboutTextContainer>
-          <HeaderText>
-            <Introduce>
-              Let Me <Purple>Introduce</Purple> Myself
-            </Introduce>
-          </HeaderText>
-          <PContainer>
-            <Paragraph>
-              Hi everyone, I'm <span className="purple">Attila Kis-Ivan</span>
-              Donec imperdiet lorem in felis molestie, vitae malesuada purus
-              bibendum. Sed eget convallis ipsum. Fusce felis arcu, tempus ut
-              sem eget, lobortis viverra nunc. Etiam id dictum lorem, quis
-              semper sem. Etiam enim orci Fusce porta aliquam rutrum. Fusce
-              ligula sem, pretium et fermentum ac, venenatis at lorem.
-            </Paragraph>
-          </PContainer>
-        </AboutTextContainer>
-        <AboutPictureContainer>
-          <AboutImage src={about} alt="about" />
-        </AboutPictureContainer>
-      </AboutContainer>
-
-      <SkillsPurple>Skillset</SkillsPurple>
-      <Skills />
-      <ToolsPurple>
-        Tools <ToolsWhite>I use</ToolsWhite>
-      </ToolsPurple>
-      <Tools />
-    </AboutSection>
-  );
+  return <AboutItem />;
 };
 
 export default About;

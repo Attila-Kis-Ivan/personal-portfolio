@@ -74,7 +74,6 @@ const NavBar = () => {
                     }
                     onClick={closeMobileMenu}
                   >
-                    {/* <CgFileDocument style={{ marginBottom: "2px" }} />  */}
                     Resume
                   </NavLink>
                 </li>

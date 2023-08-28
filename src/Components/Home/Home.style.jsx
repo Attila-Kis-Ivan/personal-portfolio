@@ -99,12 +99,12 @@ export const HomeContent = styled.div`
   margin-bottom: 0;
 
   @media ${Devices.md} {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-right: auto;
   }
 `;
 
@@ -136,7 +136,7 @@ export const HeaderText = styled.h1`
 
 export const Im = styled.span`
   font-family: "Montserrat";
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 200;
 `;
 
@@ -148,9 +148,11 @@ export const MainName = styled.span`
 `;
 
 export const NameContainer = styled.h1`
+  margin-top: 0.8em;
   @media ${Devices.md} {
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding-top: 1em;
+    margin: 0.2em;
   }
 `;
 
@@ -165,19 +167,19 @@ export const TypeWriterContainer = styled.div`
     justify-content: center;
     align-items: center;
     font-size: 1.3em;
-    margin: auto;
+    /* margin: auto; */
   }
 `;
 
 export const HeroImageContainer = styled.div`
   width: 40%;
   height: 100%;
-  margin: auto;
+  margin-top: 2em;
   margin-left: 1em;
   padding-left: 1em;
 
   @media ${Devices.md} {
-    margin: 1em;
+    margin: 2em;
     width: 50%;
   }
 `;

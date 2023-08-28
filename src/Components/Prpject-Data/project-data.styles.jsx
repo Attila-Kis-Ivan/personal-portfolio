@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Devices } from "../../Components/MediaQuery";
+import { Devices } from "../MediaQuery";
 
 export const ProjectContainer = styled.div`
   display: flex;
