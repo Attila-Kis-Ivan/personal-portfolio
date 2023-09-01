@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Devices } from "../../Components/MediaQuery";
 
 export const Container = styled.div`
   display: flex;
