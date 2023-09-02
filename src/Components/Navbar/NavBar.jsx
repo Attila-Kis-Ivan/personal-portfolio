@@ -15,10 +15,12 @@ import {
   NavbarLinkContainer,
   NavbarLink,
   NavbarLinkExtended,
-  Logo,
+  Icon,
   OpenLinksButton,
+  SocialIcon,
 } from "./NavBar.styles";
-import LogoImage from "../../assets/images/Logo.svg";
+import LinkedImage from "../../assets/images/inkedI-purple.svg";
+import GithubImage from "../../assets/images/github-purple.svg";
 
 // const NavBar = () => {
 //   const [click, setClick] = useState(false);
@@ -133,7 +135,12 @@ const NavBar = () => {
       <NavbarInnerContainer>
         <LeftContainer>
           <NavbarLinkContainer>
-            <NavbarLink to="/">Home</NavbarLink>
+            <NavbarLink
+              lassName={({ isActive }) => (isActive ? " active" : "")}
+              to="/"
+            >
+              Home
+            </NavbarLink>
             <NavbarLink to="/about">About</NavbarLink>
             <NavbarLink to="/projects ">Projects</NavbarLink>
             <NavbarLink to="/resume">Resume</NavbarLink>
@@ -148,7 +155,24 @@ const NavBar = () => {
           </NavbarLinkContainer>
         </LeftContainer>
         <RightContainer>
-          <Logo src={LogoImage}></Logo>
+          <>
+            <SocialIcon
+              href="https://www.linkedin.com/in/attila-kis-ivan-68a67bb3/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon src={GithubImage} alt="LinkedIn"></Icon>
+            </SocialIcon>
+          </>
+          <>
+            <SocialIcon
+              href="https://github.com/Attila-Kis-Ivan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon src={LinkedImage} alt="LinkedIn"></Icon>
+            </SocialIcon>
+          </>
         </RightContainer>
       </NavbarInnerContainer>
       {extendnavbar && (

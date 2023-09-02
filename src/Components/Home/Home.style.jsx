@@ -124,7 +124,7 @@ export const HeaderTextContainer = styled.div`
 `;
 
 export const HeaderText = styled.h1`
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   font-size: 1.1em;
   font-weight: 300;
 
@@ -143,7 +143,7 @@ export const Im = styled.span`
 export const MainName = styled.span`
   font-family: "Montserrat";
   font-size: 1em;
-  font-weight: 500;
+  font-weight: 400;
   color: #b127e8;
 `;
 

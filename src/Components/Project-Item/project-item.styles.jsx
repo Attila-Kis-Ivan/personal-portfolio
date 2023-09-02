@@ -173,7 +173,7 @@ export const TitleContainer = styled.div`
 
 export const Title = styled.p`
   font-family: "Montserrat";
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.3em;
   color: #b127e8;
   margin-bottom: 1em;

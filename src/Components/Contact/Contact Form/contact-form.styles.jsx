@@ -4,11 +4,10 @@ import { Devices } from "../../../Components/MediaQuery";
 export const ContactSection = styled.section`
   min-height: 100vh;
   width: 100vw;
-  padding: 2em;
-  margin-top: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 2em;
 `;
 
 export const Form = styled.form`

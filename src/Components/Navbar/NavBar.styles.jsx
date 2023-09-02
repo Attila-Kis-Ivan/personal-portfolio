@@ -1,14 +1,15 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Devices } from "../../Components/MediaQuery";
 
 export const NavbarContainer = styled.nav`
   width: 100vw;
   height: ${(props) => (props.extendnavbar ? "100vh" : "3em")};
-  background-color: #fff;
   display: flex;
   flex-direction: column;
+  position: fixed;
   background-color: #000;
+  z-index: 9999;
 `;
 
 export const LeftContainer = styled.div`
@@ -21,7 +22,9 @@ export const RightContainer = styled.div`
   flex: 30%;
   display: flex;
   justify-content: flex-end;
-  padding-right: 50px;
+  align-items: center;
+  margin-left: 2em;
+  margin-top: 1em;
 `;
 
 export const NavbarInnerContainer = styled.div`
@@ -34,7 +37,7 @@ export const NavbarLinkContainer = styled.div`
   display: flex;
 `;
 
-export const NavbarLink = styled(Link)`
+export const NavbarLink = styled(NavLink)`
   color: white;
   font-size: large;
   font-family: "Montserrat", sans-serif;
@@ -46,10 +49,15 @@ export const NavbarLink = styled(Link)`
   }
 `;
 
-export const Logo = styled.img`
-  margin: 10px;
-  max-width: 150px;
-  height: auto;
+export const SocialIcon = styled.a`
+  width: 1.4em;
+  height: 1em;
+  margin: 1em 2em 2em 0.5em;
+`;
+
+export const Icon = styled.img`
+  width: 1.4em;
+  height: 1.5em;
 `;
 
 export const OpenLinksButton = styled.button`
@@ -81,9 +89,9 @@ export const NavbarExtendendContainer = styled.div`
   }
 `;
 
-export const NavbarLinkExtended = styled(Link)`
+export const NavbarLinkExtended = styled(NavLink)`
   color: white;
-  font-size: large;
+  font-weight: 400;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   margin: 1em;

@@ -1,25 +1,23 @@
 import { createGlobalStyle } from "styled-components";
-import Montserrat from "./assets/fonts/Montserrat-VariableFont_wght.ttf";
-import Montserrat2 from "./assets/fonts/Montserrat-Italic-VariableFont_wght.ttf";
+import MontserratVariableTtf from "./assets/fonts/Montserrat-VariableFont_wght.ttf";
+// import MontserraVarableItalicTtf from "./assets/fonts/Montserrat-Italic-VariableFont_wght.ttf";
 
 const GlobalStyle = createGlobalStyle`
 
+
 @font-face {
-        font-family: 'Font Name' !important;;
-        src: local('Font Name'), local('FontName'),
-        url(${Montserrat}) format('ttf'),
-        url(${Montserrat2}) format('ttf');
-        font-weight: 300;
-        font-style: normal;
-    }
+  font-family: 'Montserrat';
+  ${"" /* src: url(${MontserraVarableItalicTtf}) format('truetype'); */}
+  src: url(${MontserratVariableTtf}) format('truetype');
+  }
+
 
 * {
 
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 html {
@@ -37,6 +35,12 @@ body {
 
   position: relative;
   background-color: #000;
+}
+
+a {
+  &.active {
+    color: #b127e8;
+  }
 }
 `;
 
