@@ -50,7 +50,6 @@ const AboutItem = () => {
           <AboutImage src={about} alt="about" />
         </AboutPictureContainer>
       </AboutContainer>
-
       <SkillsPurple>Skillset</SkillsPurple>
       <Skills />
       <ToolsPurple>

@@ -13,56 +13,54 @@ export const AboutSection = styled.section`
 
   @media ${Devices.md} {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    width: 100vw;
-    margin: auto;
   }
 `;
 
 export const AboutContainer = styled.div`
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+
   align-items: center;
-  align-content: space-between;
   justify-content: center;
-  text-align: center;
-  width: 100vw;
-  margin-top: 3em;
-  margin-left: 5em;
-  margin-right: 5em;
-  margin-bottom: 14em;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 9em;
   @media ${Devices.md} {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    flex-wrap: nowrap;
-    text-align: center;
-    width: 90vw;
+    width: 80%;
     height: auto;
-    margin: 2em;
+    margin: 1em;
   }
 `;
 
 export const AboutTextContainer = styled.div`
   width: 50%;
+  margin: 2em;
 
   @media ${Devices.md} {
-    width: 100%;
-    margin: 2em;
+    width: 80vw;
     text-align: center;
     height: auto;
   }
 `;
 
 export const AboutPictureContainer = styled.div`
-  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30em;
   height: auto;
-  margin-left: 8em;
-  margin-top: 8em;
+  margin-top: 10em;
 
   @media ${Devices.md} {
-    width: 50vw;
-    margin: 3em;
+    width: 18em;
+    height: auto;
+    margin-top: 5em;
+    margin-bottom: 8em;
   }
 `;
 export const AboutImage = styled.img`
@@ -76,20 +74,29 @@ export const AboutImage = styled.img`
 `;
 
 export const HeaderText = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   margin-top: 5em;
   margin-bottom: 2em;
 
   @media ${Devices.md} {
     margin-top: 4em;
+    width: 90%;
   }
 `;
 
 export const Introduce = styled.h1`
+  font-size: 2.5em;
   font-family: "Montserrat";
-  font-weight: 500;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1.5;
+  margin-top: 1.5em;
 
   @media ${Devices.md} {
-    font-size: 1.4em;
+    font-size: 1.6em;
     width: 100%;
   }
 `;
@@ -101,8 +108,9 @@ export const SkillsPurple = styled.h1`
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 2.5em;
+
   @media ${Devices.md} {
-    font-size: 1.4em;
+    font-size: 2em;
   }
 `;
 export const ToolsPurple = styled.h1`
@@ -123,6 +131,10 @@ export const ToolsWhite = styled.span`
 `;
 
 export const PContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
   margin-top: 1em;
 
   @media ${Devices.md} {
@@ -130,14 +142,15 @@ export const PContainer = styled.div`
   }
 `;
 export const Paragraph = styled.p`
+  justify-content: center;
   font-family: "Montserrat";
-  font-weight: 400;
-  font-size: 1.2em;
+  font-weight: 300;
+  font-size: 1.4em;
   letter-spacing: 0.2em;
   line-height: 1.5em;
 
   @media ${Devices.md} {
-    width: 100%;
+    width: 100vw;
     font-size: 1.2em;
   }
 `;
