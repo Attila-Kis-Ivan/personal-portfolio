@@ -157,7 +157,7 @@ const NavBar = () => {
         <RightContainer>
           <>
             <SocialIcon
-              href="https://www.linkedin.com/in/attila-kis-ivan-68a67bb3/"
+              href="https://github.com/Attila-Kis-Ivan"
               target="_blank"
               rel="noreferrer"
             >
@@ -166,7 +166,7 @@ const NavBar = () => {
           </>
           <>
             <SocialIcon
-              href="https://github.com/Attila-Kis-Ivan"
+              href="https://www.linkedin.com/in/attila-kis-ivan-68a67bb3/"
               target="_blank"
               rel="noreferrer"
             >

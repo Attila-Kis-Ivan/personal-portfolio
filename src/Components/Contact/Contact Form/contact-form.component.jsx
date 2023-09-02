@@ -76,7 +76,7 @@ const ContactForm = () => {
     <ContactSection>
       {status && renderAlert()}
       <Form onSubmit={handleSubmit}>
-        <Heading>Contact Us</Heading>
+        <Heading>Contact Me</Heading>
         <Text>Feel free to send a message.</Text>
         <InputField
           value={values.fullName}
