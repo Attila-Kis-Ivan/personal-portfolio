@@ -6,16 +6,126 @@ export const HomeSection = styled.section`
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: auto;
+  height: 80%;
   font-size: 3rem;
   background-color: #000;
   color: #fff;
+`;
+
+export const HomeContent = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: whitesmoke;
+  text-align: left;
+  width: 100vw;
+  height: 80%;
+  margin: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+
   @media ${Devices.md} {
-    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+`;
+
+export const HeaderTextContainer = styled.div`
+  width: 50%;
+  height: 100%;
+
+  @media ${Devices.md} {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
     width: 100%;
   }
 `;
 
+export const HeaderText = styled.h1`
+  font-family: "Montserrat";
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: 1em;
+
+  @media ${Devices.md} {
+    font-size: 0.9em;
+  }
+`;
+
+export const Im = styled.span`
+  font-family: "Montserrat";
+  font-size: 0.9em;
+  font-weight: 200;
+
+  @media ${Devices.md} {
+    font-size: 0.5em;
+  }
+`;
+
+export const MainName = styled.span`
+  font-family: "Montserrat";
+  font-size: 1em;
+  font-weight: 300;
+  color: #b127e8;
+  @media ${Devices.md} {
+    font-size: 0.5em;
+  }
+`;
+
+export const NameContainer = styled.h1`
+  margin-top: 0.8em;
+  @media ${Devices.md} {
+    padding-top: 1em;
+    margin: 0.2em;
+  }
+`;
+
+export const TypeWriterContainer = styled.div`
+  margin-top: 1em;
+  color: #b127e8;
+  font-size: 0.8em;
+  color: #b127e8;
+  font-weight: 400;
+  @media ${Devices.md} {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b127e8;
+    font-weight: 300;
+    font-size: 0.5em;
+  }
+`;
+
+export const HeroImageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  margin-top: 2em;
+
+  @media ${Devices.md} {
+    margin: 2em;
+    width: 100%;
+    height: 50%;
+  }
+`;
+export const HeroImage = styled.img`
+  width: 100%;
+  @media ${Devices.md} {
+    width: 5em;
+    height: 50%;
+  }
+`;
 export const Greeting = styled.span`
   padding-left: 0.5em;
   animation-name: GreetingAnimation;
@@ -50,7 +160,7 @@ export const Greeting = styled.span`
     }
   }
   @media ${Devices.md} {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 `;
 
@@ -85,104 +195,4 @@ export const GreetingAnimation = keyframes`
   100% {
     transform: rotate(0deg);
   }
-`;
-export const HomeContent = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  color: whitesmoke;
-  text-align: left;
-  width: 100vw;
-  height: 80vh;
-  margin: 1em;
-  margin-top: 3.5em;
-  margin-bottom: 0;
-
-  @media ${Devices.md} {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: auto;
-  }
-`;
-
-export const HeaderTextContainer = styled.div`
-  width: 50%;
-  height: 100%;
-
-  @media ${Devices.md} {
-    width: 100%;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2em;
-    width: 100%;
-  }
-`;
-
-export const HeaderText = styled.h1`
-  font-family: "Montserrat";
-  font-size: 1.1em;
-  font-weight: 300;
-
-  @media ${Devices.md} {
-    font-size: 1.5em;
-    margin-top: 2em;
-  }
-`;
-
-export const Im = styled.span`
-  font-family: "Montserrat";
-  font-size: 0.9em;
-  font-weight: 200;
-`;
-
-export const MainName = styled.span`
-  font-family: "Montserrat";
-  font-size: 1em;
-  font-weight: 400;
-  color: #b127e8;
-`;
-
-export const NameContainer = styled.h1`
-  margin-top: 0.8em;
-  @media ${Devices.md} {
-    font-size: 1.2em;
-    padding-top: 1em;
-    margin: 0.2em;
-  }
-`;
-
-export const TypeWriterContainer = styled.div`
-  margin-top: 1em;
-  color: #b127e8;
-  font-size: 1em;
-  color: #b127e8;
-  font-weight: 400;
-  @media ${Devices.md} {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3em;
-    /* margin: auto; */
-  }
-`;
-
-export const HeroImageContainer = styled.div`
-  width: 40%;
-  height: 100%;
-  margin-top: 2em;
-  margin-left: 1em;
-  padding-left: 1em;
-
-  @media ${Devices.md} {
-    margin: 2em;
-    width: 50%;
-  }
-`;
-export const HeroImage = styled.img`
-  width: 100%;
 `;
