@@ -2,6 +2,43 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { Devices } from "../../Components/MediaQuery";
 
+import {
+  AiOutlineHome,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
+  AiOutlineFilePdf,
+  AiOutlineMail,
+} from "react-icons/ai";
+
+export const AiOutlineHomeicn = styled(AiOutlineHome)`
+  font-size: 1em;
+  margin-right: 0.5em;
+  margin-bottom: -0.1em;
+`;
+export const AiOutlineFundProjectionScreenicn = styled(
+  AiOutlineFundProjectionScreen
+)`
+  font-size: 1em;
+  margin-right: 0.5em;
+  margin-bottom: -0.1em;
+`;
+
+export const AiOutlineUsericn = styled(AiOutlineUser)`
+  font-size: 1em;
+  margin-right: 0.5em;
+  margin-bottom: -0.1em;
+`;
+export const AiOutlineFilePdficn = styled(AiOutlineFilePdf)`
+  font-size: 1em;
+  margin-right: 0.5em;
+  margin-bottom: -0.1em;
+`;
+export const AiOutlineMailicn = styled(AiOutlineMail)`
+  font-size: 1em;
+  margin-right: 0.5em;
+  margin-bottom: -0.1em;
+`;
+
 export const NavbarContainer = styled.nav`
   width: 100vw;
   height: ${(props) => (props.extendnavbar ? "100vh" : "3em")};
@@ -35,6 +72,7 @@ export const NavbarInnerContainer = styled.div`
 
 export const NavbarLinkContainer = styled.div`
   display: flex;
+  justify-content: space-around;
 `;
 
 export const NavbarLink = styled(NavLink)`

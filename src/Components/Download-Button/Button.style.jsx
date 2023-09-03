@@ -3,14 +3,13 @@ import { Devices } from "../../Components/MediaQuery";
 
 export const Container = styled.div`
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 2.5em;
   margin-bottom: 4em;
-  margin-top: auto;
+  margin-top: 2em;
 `;
 
 export const ButtonHolder = styled.div`
@@ -20,7 +19,7 @@ export const ButtonHolder = styled.div`
   justify-content: center;
   text-align: center;
   height: 0.8em;
-  width: 20rem;
+  width: 60%;
   font-size: 3.25em;
   color: #f2f2f2;
   margin: auto;
@@ -35,8 +34,8 @@ export const ButtonHolder = styled.div`
   }
 
   @media ${Devices.md} {
-    height: 0%.8;
-    width: 15rem;
+    /* height: 0.8; */
+    width: 90%;
   }
 `;
 
@@ -55,4 +54,8 @@ export const Btn = styled.a`
 
 export const BtnTetx = styled.span`
   margin-left: 2em;
+
+  @media ${Devices.md} {
+    font-size: 0.8rem;
+  }
 `;

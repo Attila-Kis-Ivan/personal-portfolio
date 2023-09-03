@@ -3,22 +3,36 @@ import { Devices } from "../../../Components/MediaQuery";
 
 export const ContactSection = styled.section`
   min-height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 2em;
 `;
 
+export const FormHolder = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: auto;
+
+  @media ${Devices.md} {
+    width: 80%;
+  }
+`;
+
 export const Form = styled.form`
   display: flex;
-  width: 30%;
+  width: 100%;
+  height: auto;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  margin: 1em;
 
   @media ${Devices.md} {
-    width: 50%;
+    width: 80%;
   }
 `;
 export const Heading = styled.h1`
@@ -29,7 +43,7 @@ export const Heading = styled.h1`
   font-weight: 400;
   letter-spacing: 2px;
   @media ${Devices.md} {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 `;
 

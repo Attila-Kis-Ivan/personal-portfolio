@@ -7,7 +7,6 @@ const GlobalStyle = createGlobalStyle`
 
 @font-face {
   font-family: 'Montserrat';
-  ${"" /* src: url(${MontserraVarableItalicTtf}) format('truetype'); */}
   src: url(${MontserratVariableTtf}) format('truetype');
   }
 
@@ -20,20 +19,28 @@ const GlobalStyle = createGlobalStyle`
   font-family: 'Montserrat', sans-serif;
 }
 
+:root{
+  width: 100vw;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+
+}
+
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 75px;
+scroll-padding-top: 75px; 
   height: 100vh;
   width: 100vw;
 }
 
 body {
-  height: 90vh;
-  width: 100vh;
+  height: 100vh;
+  width: 100%;
   
   font-weight: 400;
 
-  position: relative;
+  ${"" /* position: relative; */}
   background-color: #000;
 }
 

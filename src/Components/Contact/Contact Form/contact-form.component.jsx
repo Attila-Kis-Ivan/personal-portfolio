@@ -6,6 +6,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import {
   ContactSection,
   Form,
+  FormHolder,
   Heading,
   Text,
   Button,
@@ -24,6 +25,7 @@ const ContactForm = () => {
   });
   const [status, setStatus] = useState("");
   const [capVal, setCapVal] = useState(null);
+  const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
   const renderAlert = () => (
     <Alert>
@@ -75,42 +77,48 @@ const ContactForm = () => {
   return (
     <ContactSection>
       {status && renderAlert()}
-      <Form onSubmit={handleSubmit}>
-        <Heading>Contact Me</Heading>
-        <Text>Feel free to send a message.</Text>
-        <InputField
-          value={values.fullName}
-          handleChange={handleChange}
-          label="Full Name"
-          name="fullName"
-          type="text"
-          placeholder="Your name"
-          required
-        />
-        <InputField
-          value={values.email}
-          handleChange={handleChange}
-          label="E-Mail"
-          name="email"
-          type="email"
-          placeholder="youremail@example.com"
-          required
-        />
-        <TextField
-          value={values.message}
-          handleChange={handleChange}
-          label="Your message here"
-          name="message"
-        />
-        <ReCAPTCHA
-          ref={captcha}
-          sitekey="6LfQkd4nAAAAAPS5Uuaed8A7pOVKkJDr1uplLR0W"
-          onChange={(val) => setCapVal(val)}
-        />
-        <Button disabled={!capVal} type="submit" onClick={() => renderAlert()}>
-          Send
-        </Button>
-      </Form>
+      <FormHolder>
+        <Form onSubmit={handleSubmit}>
+          <Heading>Contact Me</Heading>
+          <Text>Feel free to send a message.</Text>
+          <InputField
+            value={values.fullName}
+            handleChange={handleChange}
+            label="Full Name"
+            name="fullName"
+            type="text"
+            placeholder="Your name"
+            required
+          />
+          <InputField
+            value={values.email}
+            handleChange={handleChange}
+            label="E-Mail"
+            name="email"
+            type="email"
+            placeholder="youremail@example.com"
+            required
+          />
+          <TextField
+            value={values.message}
+            handleChange={handleChange}
+            label="Your message here"
+            name="message"
+          />
+          <ReCAPTCHA
+            ref={captcha}
+            sitekey={SITE_KEY}
+            onChange={(val) => setCapVal(val)}
+          />
+          <Button
+            disabled={!capVal}
+            type="submit"
+            onClick={() => renderAlert()}
+          >
+            Send
+          </Button>
+        </Form>
+      </FormHolder>
     </ContactSection>
   );
 };
