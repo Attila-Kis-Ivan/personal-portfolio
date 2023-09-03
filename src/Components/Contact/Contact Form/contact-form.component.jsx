@@ -25,7 +25,6 @@ const ContactForm = () => {
   });
   const [status, setStatus] = useState("");
   const [capVal, setCapVal] = useState(null);
-  const SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
   const renderAlert = () => (
     <Alert>
@@ -107,7 +106,7 @@ const ContactForm = () => {
           />
           <ReCAPTCHA
             ref={captcha}
-            sitekey={SITE_KEY}
+            sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
             onChange={(val) => setCapVal(val)}
           />
           <Button
