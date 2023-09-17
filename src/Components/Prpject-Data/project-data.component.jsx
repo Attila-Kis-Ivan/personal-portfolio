@@ -36,7 +36,7 @@ const projects = [
     imageUrl:
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-xFAlcSrptjtjSOnyIlzE_XeAEg57gbtoQjTCk7eujxA6Wmy8ojzRUC6HxLTwXLGQ8kyyWwGuQcT4qeuNTbYo8QiAl5=s1600",
     description:
-      "Used language: Rect Native. The purpose of this Restaurant Finder app project to leran about React Native in depth. Used expo, hooks, React Native map, 3rd parties APIs, IOS and Android simulator. Designed in styled-components. To build this app took 3 months.",
+      "Used language: Rect Native. The purpose of this Restaurant app project to leran Native in depth. Used expo, hooks, React Native map, 3rd parties APIs, IOS & Android simulator. Designed in styled-components. To build this app took 3 months.",
     language: "React Native",
     source: "https://github.com/Attila-Kis-Ivan/FoodToGo/tree/part-52",
     demo: "React Native project",
