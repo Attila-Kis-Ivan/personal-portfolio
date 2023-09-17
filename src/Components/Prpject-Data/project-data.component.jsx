@@ -11,9 +11,10 @@ const projects = [
   {
     id: 1,
     title: "Portfolio Page",
-    imageUrl: "https://i.ibb.co/k9Cqwwj/Portfolio.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-zZVLwlEJGg_PdFicLc7dqP_CH8RplHP361FkhNaRvQw_VFgINSxCWbBN3Gvi_V7bEcYkYQrLrvBvMbmf3kWEMf-I9JEw=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
+      "Used language: Rect JS. This portfolio site made in React. Purpose of this project obviously to have a portfolio page and practiceing React JS. Created with create-rect-app, designed in styled-components. To build this page took 4 weeks.",
     language: "React",
     source: "https://github.com/Attila-Kis-Ivan/personal-portfolio",
     demo: "https://tdb-coding.com/",
@@ -21,9 +22,10 @@ const projects = [
   {
     id: 2,
     title: "TDB-Clothing-2.0",
-    imageUrl: "https://i.ibb.co/FmB7Lxp/Webshop.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-zgTglkWlQ_-lNpUHqiiB3X2CMGR6GAjktFZn9oui6so0FLInXPRcC935ve06qA1WU3GYVx83Uwr14MbGF09nPuJArw=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
+      "Used language: Rect JS. The purpose of this ecommerce shop project to leran about React JS in depth. Created with create-rect-app, used hooks and redux. Designed in styled-components. To build this app took 6 months",
     language: "React",
     source: "https://github.com/Attila-Kis-Ivan/TDB-Clothing-2.0",
     demo: "https://tdb-clothing.netlify.app/",
@@ -31,9 +33,10 @@ const projects = [
   {
     id: 3,
     title: "FoodToGo",
-    imageUrl: "https://i.ibb.co/Mk8TyvZ/FoodToGo.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-xFAlcSrptjtjSOnyIlzE_XeAEg57gbtoQjTCk7eujxA6Wmy8ojzRUC6HxLTwXLGQ8kyyWwGuQcT4qeuNTbYo8QiAl5=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit. ",
+      "Used language: Rect Native. The purpose of this Restaurant Finder app project to leran about React Native in depth. Used expo, hooks, React Native map, 3rd parties APIs, IOS and Android simulator. Designed in styled-components. To build this app took 3 months.",
     language: "React Native",
     source: "https://github.com/Attila-Kis-Ivan/FoodToGo/tree/part-52",
     demo: "React Native project",
@@ -41,50 +44,55 @@ const projects = [
   {
     id: 4,
     title: "Face-Recognition-App",
-    imageUrl: "https://i.ibb.co/V37wqxk/lion.jpg",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-zD-S1rlhGwiFAiyeEy03_vtVMxFIoS95ENbXwfSePMoBOXjlkbKOJXSU59wgCOX0tVrZv47bzAAGDy85zPf52KvBcIgw=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "javascript",
+      "Used language: Rect JS and Express JS. The purpose of this Face Recognition app project to leran React and working with Clarifai AI API. To build this app took 6 months.",
+    language: "React, Node JS",
     source: "https://github.com/Attila-Kis-Ivan/personal-portfolio",
     demo: "https://face-recognition-app-tcd8.onrender.com/",
   },
   {
     id: 5,
     title: "Kanban Board",
-    imageUrl: "https://i.ibb.co/ng8DL4y/Kanban.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-xTCscsEHs4SwaZc4sVGYDnGPELc7N1FZlGTSyTWuswP4Z-zlHh1wj_L1MYFkTXccyVZWQzrlkf53j5X2oxjNnPI9VPUg=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "javascript",
+      "Used language: javascript, HTML5 and css. The purpose of this Kanban Board project to leran javascript, local storage, drag and drop, and DOM manipulation in depth. To build this app took 3 months.",
+    language: "javascript, html5, css",
     source: "https://github.com/Attila-Kis-Ivan/Drag-and-Drop",
     demo: "https://attila-kis-ivan.github.io/Drag-and-Drop/",
   },
   {
     id: 6,
     title: "Ping-Pong",
-    imageUrl: "https://i.ibb.co/cvH2pYx/Ping-Pong.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-xHBz-f2gMQzUE3LLs_NzHr3YDBGuYdd5aQ1e6vW54rNlx5-DQAl1EGDO7HaB9_W_l6czfRv1BDreVecLcmTIRlXVTeaQ=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "javascript",
+      "Used language: javascript, HTML5 and CSS. The purpose of this Ping-Pong game project to leran javascript, canvas and DOM manipulation in depth. To build this app took 3 months.",
+    language: "javascript, css",
     source: "https://github.com/Attila-Kis-Ivan/Ping-Pong",
     demo: "https://attila-kis-ivan.github.io/Ping-Pong/",
   },
   {
     id: 7,
     title: "NASA-API-Pictures",
-    imageUrl: "https://i.ibb.co/L0JS26m/NASA-API.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-yw9-erSZI2spBITbqRI9K_cY5PhQ7IX6bHygvkHO9v8KLSmxXnEefut7bcB2vmyJqPGxcqr5BNnTfA4ggrxi8qQL2VVQ=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "javascript",
+      "Used language: javascript, HTML5 and CSS. The purpose of this NASA-API-Pictures project to leran and practice javascript, loacal store, DOM manipulation and working with 3rd party API. To build this app took 6 weeks.",
+    language: "javascrip, html5 and css",
     source: "https://github.com/Attila-Kis-Ivan/NASA-API-Pictures",
     demo: "https://attila-kis-ivan.github.io/NASA-API-Pictures/",
   },
   {
     id: 8,
     title: "Calculator",
-    imageUrl: "https://i.ibb.co/8DVqqx4/Calculator.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-xqP9e8JPY_4nH1ajmGTx_YKsReIBFeT0CJhOknuN_mjatSKBIdBB8p3lbtAEWtbzOzyqk07N6C1PVC-zyXHlQywFOtBw=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "javascript",
+      "Used language: javascript, HTML5 and CSS. The purpose of this Calculator project to leran and practice javascript DOM manipulation. To build this app took 7 weeks.",
+    language: "javascript, html5 and css",
     source: "https://github.com/Attila-Kis-Ivan/Calculator",
     demo: "https://attila-kis-ivan.github.io/Calculator/",
   },
@@ -92,10 +100,11 @@ const projects = [
   {
     id: 9,
     title: "Math Game",
-    imageUrl: "https://i.ibb.co/CPNwbQY/Math-Game.png",
+    imageUrl:
+      "https://drive.google.com/uc?export=download&id=1dhMOPpqypCDQwsn_N8aKWnmn2HvY4mJK",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "javascript",
+      "Used language: javascript, HTML5 and CSS. The purpose of this Math Game project to extend and challenge my javascript knowledge and DOM manipulation in depth. To build this app took 3 months.",
+    language: "javascript, html5 and css",
     source: "https://github.com/Attila-Kis-Ivan/The-Math-Game",
     demo: "https://attila-kis-ivan.github.io/The-Math-Game/",
   },
@@ -103,20 +112,22 @@ const projects = [
   {
     id: 10,
     title: "Music Player",
-    imageUrl: "https://i.ibb.co/f2zyq8h/Music-Player.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-wvNaevTlPGy5wHg7xyksdCvi-uMSXiyTep8B9mXdKAJfhnpDK9oeOWb9PahzVFn6kVxJRX_woQnzVbcryLy5uLWXcv=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "javascript",
+      "Used language: javascript, HTML5 and CSS. The purpose of this Music Player project to extend and challenge my javascript knowledge (calculate progress bar etc...) and DOM manipulation in depth. To build this app took 2 months.",
+    language: "javascript, html5 and css",
     source: "https://github.com/Attila-Kis-Ivan/Music-Player",
     demo: "https://attila-kis-ivan.github.io/Music-Player/",
   },
   {
     id: 11,
     title: "Bookmark App",
-    imageUrl: "https://i.ibb.co/nw6c4rG/BookMark.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-xrtVfYorZId8091nwf8DquF0Hii8v8KEnmq12yGyNSzDjTXWCbzcRv68IXn3J-5aK0yofKbPw7gx7hT0qQFJs7LilO=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "javascript",
+      "Used language: javascript, HTML5 and CSS. The purpose of this Bookmark project to learn and practice javascript and DOM manipulation in depth. To build this app took 2.5 months.",
+    language: "javascript, html5 and css",
     source: "https://github.com/Attila-Kis-Ivan/Bookmark-App",
     demo: "https://attila-kis-ivan.github.io/Bookmark-App/",
   },
@@ -124,10 +135,11 @@ const projects = [
   {
     id: 12,
     title: "Landing Page",
-    imageUrl: "https://i.ibb.co/G5Ckw39/Landing-Page.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-zyxJ-3Ob-fdxhhWHXsnfb5Ad21_VFoiPlqrByMa3b_ioeKsak0YtN4uiuwyihZMYB3TqQZ2srLXJSOBqIvHjxVqotW=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "CSS",
+      "Used language: javascript, HTML5 and CSS. The purpose of this Landing page project to learn and practice HTML5, CSS and a bit of javascript for DOM manipulation.",
+    language: "javascript, html5 and css",
     source: "https://github.com/Attila-Kis-Ivan/Splash-Page",
     demo: "https://attila-kis-ivan.github.io/Splash-Page/",
   },
@@ -135,30 +147,33 @@ const projects = [
   {
     id: 13,
     title: "Quote Generator",
-    imageUrl: "https://i.ibb.co/Bn7qDZ6/Quote-Generator.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-xnuzeDJWeETAhjs0mvOEwkLpSyAeSGLmDJPt4hgYHaZ450M8pcMg4qdbTu6cUNkMGclOcehAjAvwnasw66W-A_M2aWVA=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "CSS",
+      "Used language: javascript, HTML5 and CSS. The purpose of this Quote Generator project to learn and practice javascript and DOM manipulation (like fetching datad etc..). To build this app took 5 weeks.",
+    language: "javascript, html5 and css",
     source: "https://github.com/Attila-Kis-Ivan/Quote-Generator",
     demo: "https://attila-kis-ivan.github.io/Quote-Generator/",
   },
   {
     id: 14,
     title: "Infinite Scroll",
-    imageUrl: "https://i.ibb.co/ncqJpDG/Infinite-Scroll.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-zcjtoxDxrDpMCaZ7PYBJ8ma5Gx119bUnp5jZdcRKE_rkNFTHT7zcTKii-KuYMuztsSgmQgJgj2M8QQ--EgtqTrpl_R=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "javascript",
+      "Used language: javascript, HTML5 and CSS. The purpose of this Infinite Scroll project to learn and practice javascript and working with picture API (like fetching datad etc..). To build this app took 3 weeks.",
+    language: "javascript, html5 and css",
     source: "https://github.com/Attila-Kis-Ivan/Infinite-Scroll",
     demo: "https://attila-kis-ivan.github.io/Infinite-Scroll/",
   },
   {
     id: 15,
     title: "CSS background color generator",
-    imageUrl: "https://i.ibb.co/XYfHzjT/Background-color-generator.png",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AITFw-wJETU9OfUW9akS7v-B02V1BW25u5P_AkJJJx0eMMKr_PJNTgBs2ASA2-p-hZYg3JgeirikDJiLz_2rLPkDwuBMv7PhIA=s1600",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices tincidunt arcu non sodales neque sodales. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Praesent tristique magna sit amet purus gravida quis blandit.",
-    language: "CSS",
+      "Used language: javascript, HTML5 and CSS. The purpose of this Background Color Generator project to learn and practice javascript and DOM manipulation. To build this app took 2 weeks.",
+    language: "javascript, html5 and css",
     source: "https://github.com/Attila-Kis-Ivan/Background-Color-Generator",
     demo: "https://attila-kis-ivan.github.io/Background-Color-Generator/",
   },

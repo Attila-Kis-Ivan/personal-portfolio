@@ -11,6 +11,7 @@ import {
   ButtonHolder,
   BtnTetx,
   Btn,
+  FlipcardFrontBackground,
 } from "./project-item.styles.jsx";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
@@ -24,7 +25,9 @@ const ProjectItem = ({ project }) => {
         <Title>{title}</Title>
       </TitleContainer>
       <FlipCardInner>
-        <FlipCardFront imageUrl={imageUrl} />
+        <FlipcardFrontBackground>
+          <FlipCardFront imageUrl={imageUrl} />
+        </FlipcardFrontBackground>
         <FlipCardBack>
           <Heading>Descreption</Heading>
           <Paragraph>{description}</Paragraph>

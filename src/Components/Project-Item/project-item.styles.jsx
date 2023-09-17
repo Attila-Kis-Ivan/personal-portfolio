@@ -41,17 +41,29 @@ export const FlipCardFront = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
   background-image: ${({ imageUrl }) => `url(${imageUrl})`};
   position: absolute;
+  width: 90%;
+  height: 90%;
+  backface-visibility: hidden;
+  border-radius: 15px;
+`;
+export const FlipcardFrontBackground = styled.div`
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden;
+  background-color: #000;
   border-radius: 15px;
   box-shadow: 0px 0px 20px 10px #b127e8;
 `;
+
 export const CoverImg = styled.img`
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 15px;
   border: none;
@@ -92,6 +104,7 @@ export const Paragraph = styled.p`
   font-family: "Montserrat";
   font-weight: 300;
   font-size: 1em;
+  line-height: 1.5;
 
   @media ${Devices.md} {
     font-weight: 300;
