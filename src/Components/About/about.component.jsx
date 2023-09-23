@@ -38,9 +38,11 @@ const AboutItem = () => {
           <PContainer>
             <Paragraph>
               Hi everyone, I'm <Purple>Attila Kis-Ivan</Purple> a self-taught
-              web developer. I fell in love with programming in 2020. Currently
-              I'm developing products with Ract and React-Native. I'm interested
-              in AI so Python and PyTorch are on the way 😊.
+              web developer from London UK. I fell in love with programming in
+              2020. Currently I'm developing products with <Purple>Ract</Purple>{" "}
+              and
+              <Purple>React-Native</Purple>. I'm interested in AI so Python and
+              PyTorch are on the way 😊.
             </Paragraph>
           </PContainer>
         </AboutTextContainer>
