@@ -21,6 +21,7 @@
     "styled-icons": "^10.47.0",
     "typewriter-effect": "^2.20.1",
     "web-vitals": "^2.1.4",
+    "workbox-webpack-plugin": "^7.0.0",
     "yarn": "^1.22.19"
   },
   "scripts": {
