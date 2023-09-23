@@ -58,7 +58,7 @@ const projects = [
     imageUrl:
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-xTCscsEHs4SwaZc4sVGYDnGPELc7N1FZlGTSyTWuswP4Z-zlHh1wj_L1MYFkTXccyVZWQzrlkf53j5X2oxjNnPI9VPUg=s1600",
     description:
-      "Used languages: javascript, HTML5 and CSS. The purpose of this Kanban Board project was to learn javascript, local storage, drag and drop, and DOM manipulation. It took 3 months to build this page",
+      "Used languages: javascript, HTML5 and CSS. The purpose of this Kanban Board project was to learn javascript, local storage, drag and drop, and DOM manipulation in depth. It took 3 months to build this page",
     language: "javascript, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/Drag-and-Drop",
     demo: "https://attila-kis-ivan.github.io/Drag-and-Drop/",
