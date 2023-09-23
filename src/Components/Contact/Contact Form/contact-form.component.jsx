@@ -41,6 +41,7 @@ const ContactForm = () => {
     e.preventDefault();
     emailjs
       .send("service_b2mafh9", "template_2n0vqoq", values, "BdPPPjGG5Y0xDqapC")
+
       .then(
         (response) => {
           console.log("SUCCESS!", response);
