@@ -37,12 +37,10 @@ const AboutItem = () => {
           </HeaderText>
           <PContainer>
             <Paragraph>
-              Hi everyone, I'm <span className="purple">Attila Kis-Ivan</span>
-              Donec imperdiet lorem in felis molestie, vitae malesuada purus
-              bibendum. Sed eget convallis ipsum. Fusce felis arcu, tempus ut
-              sem eget, lobortis viverra nunc. Etiam id dictum lorem, quis
-              semper sem. Etiam enim orci Fusce porta aliquam rutrum. Fusce
-              ligula sem, pretium et fermentum ac, venenatis at lorem.
+              Hi everyone, I'm <Purple>Attila Kis-Ivan</Purple> a self-taught
+              web developer. I fell in love with programming in 2020. Currently
+              I'm developing products with Ract and React-Native. I'm interested
+              in AI so Python and PyTorch are on the way 😊.
             </Paragraph>
           </PContainer>
         </AboutTextContainer>

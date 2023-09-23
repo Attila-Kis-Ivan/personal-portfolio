@@ -102,6 +102,7 @@ export const Introduce = styled.h1`
 `;
 export const Purple = styled.span`
   color: #b127e8;
+  font-weight: 400;
 `;
 export const SkillsPurple = styled.h1`
   color: #b127e8;

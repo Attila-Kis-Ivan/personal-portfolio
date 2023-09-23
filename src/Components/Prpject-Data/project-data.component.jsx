@@ -14,7 +14,7 @@ const projects = [
     imageUrl:
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-zZVLwlEJGg_PdFicLc7dqP_CH8RplHP361FkhNaRvQw_VFgINSxCWbBN3Gvi_V7bEcYkYQrLrvBvMbmf3kWEMf-I9JEw=s1600",
     description:
-      "Used language: Rect JS. This portfolio site made in React. Purpose of this project obviously to have a portfolio page and practiceing React JS. Created with create-rect-app, designed in styled-components. To build this page took 4 weeks.",
+      "Used language: Rect JS, Styled-Components. This portfolio site made in React. Purpose of this project obviously to have a portfolio page and practiceing React JS. Created with create-rect-app, designed in styled-components. To build this page took 4 weeks.",
     language: "React",
     source: "https://github.com/Attila-Kis-Ivan/personal-portfolio",
     demo: "https://tdb-coding.com/",
@@ -59,7 +59,7 @@ const projects = [
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-xTCscsEHs4SwaZc4sVGYDnGPELc7N1FZlGTSyTWuswP4Z-zlHh1wj_L1MYFkTXccyVZWQzrlkf53j5X2oxjNnPI9VPUg=s1600",
     description:
       "Used language: javascript, HTML5 and css. The purpose of this Kanban Board project to leran javascript, local storage, drag and drop, and DOM manipulation in depth. To build this app took 3 months.",
-    language: "javascript, html5, css",
+    language: "javascript, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/Drag-and-Drop",
     demo: "https://attila-kis-ivan.github.io/Drag-and-Drop/",
   },
@@ -70,7 +70,7 @@ const projects = [
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-xHBz-f2gMQzUE3LLs_NzHr3YDBGuYdd5aQ1e6vW54rNlx5-DQAl1EGDO7HaB9_W_l6czfRv1BDreVecLcmTIRlXVTeaQ=s1600",
     description:
       "Used language: javascript, HTML5 and CSS. The purpose of this Ping-Pong game project to leran javascript, canvas and DOM manipulation in depth. To build this app took 3 months.",
-    language: "javascript, css",
+    language: "javascript, CSS",
     source: "https://github.com/Attila-Kis-Ivan/Ping-Pong",
     demo: "https://attila-kis-ivan.github.io/Ping-Pong/",
   },
@@ -81,7 +81,7 @@ const projects = [
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-yw9-erSZI2spBITbqRI9K_cY5PhQ7IX6bHygvkHO9v8KLSmxXnEefut7bcB2vmyJqPGxcqr5BNnTfA4ggrxi8qQL2VVQ=s1600",
     description:
       "Used language: javascript, HTML5 and CSS. The purpose of this NASA-API-Pictures project to leran and practice javascript, loacal store, DOM manipulation and working with 3rd party API. To build this app took 6 weeks.",
-    language: "javascrip, html5 and css",
+    language: "javascrip, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/NASA-API-Pictures",
     demo: "https://attila-kis-ivan.github.io/NASA-API-Pictures/",
   },
@@ -92,7 +92,7 @@ const projects = [
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-xqP9e8JPY_4nH1ajmGTx_YKsReIBFeT0CJhOknuN_mjatSKBIdBB8p3lbtAEWtbzOzyqk07N6C1PVC-zyXHlQywFOtBw=s1600",
     description:
       "Used language: javascript, HTML5 and CSS. The purpose of this Calculator project to leran and practice javascript DOM manipulation. To build this app took 7 weeks.",
-    language: "javascript, html5 and css",
+    language: "javascript, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/Calculator",
     demo: "https://attila-kis-ivan.github.io/Calculator/",
   },
@@ -104,7 +104,7 @@ const projects = [
       "https://drive.google.com/uc?export=download&id=1dhMOPpqypCDQwsn_N8aKWnmn2HvY4mJK",
     description:
       "Used language: javascript, HTML5 and CSS. The purpose of this Math Game project to extend and challenge my javascript knowledge and DOM manipulation in depth. To build this app took 3 months.",
-    language: "javascript, html5 and css",
+    language: "javascript, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/The-Math-Game",
     demo: "https://attila-kis-ivan.github.io/The-Math-Game/",
   },
@@ -116,7 +116,7 @@ const projects = [
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-wvNaevTlPGy5wHg7xyksdCvi-uMSXiyTep8B9mXdKAJfhnpDK9oeOWb9PahzVFn6kVxJRX_woQnzVbcryLy5uLWXcv=s1600",
     description:
       "Used language: javascript, HTML5 and CSS. The purpose of this Music Player project to extend and challenge my javascript knowledge (calculate progress bar etc...) and DOM manipulation in depth. To build this app took 2 months.",
-    language: "javascript, html5 and css",
+    language: "javascript, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/Music-Player",
     demo: "https://attila-kis-ivan.github.io/Music-Player/",
   },
@@ -127,7 +127,7 @@ const projects = [
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-xrtVfYorZId8091nwf8DquF0Hii8v8KEnmq12yGyNSzDjTXWCbzcRv68IXn3J-5aK0yofKbPw7gx7hT0qQFJs7LilO=s1600",
     description:
       "Used language: javascript, HTML5 and CSS. The purpose of this Bookmark project to learn and practice javascript and DOM manipulation in depth. To build this app took 2.5 months.",
-    language: "javascript, html5 and css",
+    language: "javascript, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/Bookmark-App",
     demo: "https://attila-kis-ivan.github.io/Bookmark-App/",
   },
@@ -139,7 +139,7 @@ const projects = [
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-zyxJ-3Ob-fdxhhWHXsnfb5Ad21_VFoiPlqrByMa3b_ioeKsak0YtN4uiuwyihZMYB3TqQZ2srLXJSOBqIvHjxVqotW=s1600",
     description:
       "Used language: javascript, HTML5 and CSS. The purpose of this Landing page project to learn and practice HTML5, CSS and a bit of javascript for DOM manipulation.",
-    language: "javascript, html5 and css",
+    language: "javascript, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/Splash-Page",
     demo: "https://attila-kis-ivan.github.io/Splash-Page/",
   },
@@ -151,7 +151,7 @@ const projects = [
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-xnuzeDJWeETAhjs0mvOEwkLpSyAeSGLmDJPt4hgYHaZ450M8pcMg4qdbTu6cUNkMGclOcehAjAvwnasw66W-A_M2aWVA=s1600",
     description:
       "Used language: javascript, HTML5 and CSS. The purpose of this Quote Generator project to learn and practice javascript and DOM manipulation (like fetching datad etc..). To build this app took 5 weeks.",
-    language: "javascript, html5 and css",
+    language: "javascript, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/Quote-Generator",
     demo: "https://attila-kis-ivan.github.io/Quote-Generator/",
   },
@@ -162,7 +162,7 @@ const projects = [
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-zcjtoxDxrDpMCaZ7PYBJ8ma5Gx119bUnp5jZdcRKE_rkNFTHT7zcTKii-KuYMuztsSgmQgJgj2M8QQ--EgtqTrpl_R=s1600",
     description:
       "Used language: javascript, HTML5 and CSS. The purpose of this Infinite Scroll project to learn and practice javascript and working with picture API (like fetching datad etc..). To build this app took 3 weeks.",
-    language: "javascript, html5 and css",
+    language: "javascript, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/Infinite-Scroll",
     demo: "https://attila-kis-ivan.github.io/Infinite-Scroll/",
   },
@@ -173,7 +173,7 @@ const projects = [
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-wJETU9OfUW9akS7v-B02V1BW25u5P_AkJJJx0eMMKr_PJNTgBs2ASA2-p-hZYg3JgeirikDJiLz_2rLPkDwuBMv7PhIA=s1600",
     description:
       "Used language: javascript, HTML5 and CSS. The purpose of this Background Color Generator project to learn and practice javascript and DOM manipulation. To build this app took 2 weeks.",
-    language: "javascript, html5 and css",
+    language: "javascript, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/Background-Color-Generator",
     demo: "https://attila-kis-ivan.github.io/Background-Color-Generator/",
   },
