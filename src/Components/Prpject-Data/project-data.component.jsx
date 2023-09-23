@@ -172,7 +172,7 @@ const projects = [
     imageUrl:
       "https://lh3.googleusercontent.com/drive-viewer/AITFw-wJETU9OfUW9akS7v-B02V1BW25u5P_AkJJJx0eMMKr_PJNTgBs2ASA2-p-hZYg3JgeirikDJiLz_2rLPkDwuBMv7PhIA=s1600",
     description:
-      "Used languages: javascript, HTML5 and CSS. The purpose of this Background Color Generator project was to learn and practice javascript and DOM manipulation. It took 2§. weeks to build this page.",
+      "Used languages: javascript, HTML5 and CSS. The purpose of this Background Color Generator project was to learn and practice javascript and DOM manipulation. It took 2 weeks to build this page.",
     language: "javascript, HTML5 and CSS",
     source: "https://github.com/Attila-Kis-Ivan/Background-Color-Generator",
     demo: "https://attila-kis-ivan.github.io/Background-Color-Generator/",
