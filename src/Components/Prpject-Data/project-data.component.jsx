@@ -9,6 +9,17 @@ import {
 
 const projects = [
   {
+    id: 16,
+    title: "React Quiz",
+    imageUrl:
+      "https://lh3.googleusercontent.com/drive-viewer/AK7aPaA_RbLSjtZLZsrwkRL7Kg9RuVuUVktY1S7gbI2ElA3wopgd8f-MmDFaP8ptUfEh6ICgI-iTjLEQ7StVI4oYTGew9wZN=s1600",
+    description:
+      "Used languages: React JS and CSS. This React Quiz made in React. Purpose of this project to get more familiar with Reducer. Created with create-react-app, designed in CSS. The focus was on Reducer. It took 3 weeks to build this page.",
+    language: "React",
+    source: "https://github.com/Attila-Kis-Ivan/Qiuz",
+    demo: "https://tdb-react-quiz.netlify.app/",
+  },
+  {
     id: 1,
     title: "Portfolio Page",
     imageUrl:
